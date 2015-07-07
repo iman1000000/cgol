@@ -1,7 +1,7 @@
 #ifndef GOLUTIL_HEADER
 #define GOLUTIL_HEADER
 
-#include "stdio.h"
+#include <stdio.h>
 #include "grid.h"
 
 /* Print all the cells in the grid as pairs of hex digits. Assumes cells are
