@@ -1,0 +1,3 @@
+[submodule "emscripten-async-stdio"]
+	path = emscripten-async-stdio
+	url = https://github.com/iman1000000/emscripten-async-stdio.git
