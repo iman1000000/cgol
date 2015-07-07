@@ -1,7 +1,12 @@
 #ifndef CLI_HEADER
 #define CLI_HEADER
 
+#ifdef __EMSCRIPTEN__
+#include "emscripten-async-stdio/stdio_async.h"
+#else
 #include <stdio.h>
+#endif
+
 #include <time.h>
 #include <string.h>
 

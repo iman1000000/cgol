@@ -1,7 +1,12 @@
 #ifndef GOLUTIL_HEADER
 #define GOLUTIL_HEADER
 
+#ifdef __EMSCRIPTEN__
+#include "emscripten-async-stdio/stdio_async.h"
+#else
 #include <stdio.h>
+#endif
+
 #include "grid.h"
 
 /* Print all the cells in the grid as pairs of hex digits. Assumes cells are

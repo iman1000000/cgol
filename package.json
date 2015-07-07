@@ -1,0 +1,13 @@
+{
+  "name": "cgol",
+  "version": "0.0.1",
+  "description": "Game of life implemented in C, running in browsers through Emscripten",
+  "dependencies": {
+    "terminal.js": "^1.0.5"
+  },
+  "license": "BSD-2-Clause",
+  "repository" : {
+      "type" : "git",
+      "url" : "https://github.com/iman1000000/cgol.git"
+  }
+}
