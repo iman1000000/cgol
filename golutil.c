@@ -10,7 +10,12 @@ void golutil_print(Grid *grid) {
 }
 
 void golutil_randomize(Grid *grid) {
-    srand(time(NULL));
+    static int seeded = 0;
+    if (!seeded) {
+        srand(time(NULL));
+        seeded = 1;
+    }
+
     for (int i = 0; i < grid->rows; ++i) {
         for (int j = 0; j < grid->cols; j++) {
             grid_set_at(grid, i, j, rand() & 1);
