@@ -72,7 +72,6 @@ void main_loop(Grid *grid) {
 }
 
 int main(int argc, char *argv []) {
-    srand(time(NULL));
     Grid *grid = grid_create(ROWS, COLS);
     main_loop(grid);
 }

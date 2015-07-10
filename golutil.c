@@ -10,7 +10,7 @@ void golutil_print(Grid *grid) {
 }
 
 void golutil_randomize(Grid *grid) {
-    // assuming RNG has been seeded
+    srand(time(NULL));
     for (int i = 0; i < grid->rows; ++i) {
         for (int j = 0; j < grid->cols; j++) {
             grid_set_at(grid, i, j, rand() & 1);

@@ -7,7 +7,6 @@
 #include <stdio.h>
 #endif
 
-#include <time.h>
 #include <string.h>
 
 #include "grid.h"

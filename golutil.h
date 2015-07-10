@@ -7,6 +7,8 @@
 #include <stdio.h>
 #endif
 
+#include <time.h>
+
 #include "grid.h"
 
 /* Print all the cells in the grid as pairs of hex digits. Assumes cells are
