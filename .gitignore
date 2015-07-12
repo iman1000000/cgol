@@ -3,4 +3,4 @@ a.out
 cgol
 cgol.js
 cgol.js.mem
-node_modules
+/node_modules
