@@ -28,6 +28,11 @@ npm install
 ```
 Compile the javascript components
 ```
-make webcli
+make web
 ```
 Open `cgol-cli.html`
+
+## Building web GUI mode
+Same as above, except that the npm dependencies are not required.
+
+Open `cgol-gui.html`
