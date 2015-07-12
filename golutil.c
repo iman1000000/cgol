@@ -18,7 +18,7 @@ void golutil_randomize(Grid *grid) {
 
     for (int i = 0; i < grid->rows; ++i) {
         for (int j = 0; j < grid->cols; j++) {
-            grid_set_at(grid, i, j, rand() & 1);
+            grid_set_at(grid, i, j, !(rand() & 0b11));
         }
     }
 }
