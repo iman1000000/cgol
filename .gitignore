@@ -1,6 +1,6 @@
 *.swp
 a.out
-cgol
-cgol.js
-cgol.js.mem
+/cgol
+/cgol.js
+/cgol.js.mem
 /node_modules
